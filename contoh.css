@@ -1,0 +1,14 @@
+#contoh1 {
+  height: 700px;
+  background-color: var(--warna5);
+}
+
+#contoh2 {
+  height: 700px;
+  background-color: var(--warna2);
+}
+
+#contoh3 {
+  height: 700px;
+  background-color: var(--warna4);
+}
