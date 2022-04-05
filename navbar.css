@@ -1,3 +1,7 @@
+/* Open Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* Open Sans Font */
+
 :root {
   --warna1: #edf2f7;
   --warna2: #ffcf54;
@@ -5,6 +9,10 @@
   --warna4: #2b2b29;
   --warna5: #e2e8f0;
   --warna6: #2d3748;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
 }
 
 #nav .container-lg {
@@ -18,6 +26,9 @@
 }
 #nav .navbar-brand {
   color: #2d3748 !important ;
+}
+#nav .navbar-brand img{
+  width: 110px ;
 }
 #nav .nav-item {
   margin: 0px 35px;
@@ -66,18 +77,21 @@
 
 /* RESPONSIVE */
 @media (max-width: 1200px) {
+  #nav .navbar-brand img{
+    width: 90px ;
+  }
   #nav .nav-item {
     margin: 0px 25px;
   }
   #nav .nav-link {
     color: #2D3748 !important ;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 14px;
   }
   #nav .btn-demo{
     width: 103px;
     height: 50px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
   }
   #nav .scrolltop {
@@ -139,12 +153,8 @@ height: 20px;
 position: relative;
 margin: 0px;
 -webkit-transform: rotate(0deg);
--moz-transform: rotate(0deg);
--o-transform: rotate(0deg);
 transform: rotate(0deg);
 -webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
 transition: .5s ease-in-out;
 cursor: pointer;
 }
@@ -158,12 +168,8 @@ border-radius: 9px;
 opacity: 1;
 left: 0;
 -webkit-transform: rotate(0deg);
--moz-transform: rotate(0deg);
--o-transform: rotate(0deg);
 transform: rotate(0deg);
 -webkit-transition: .25s ease-in-out;
--moz-transition: .25s ease-in-out;
--o-transition: .25s ease-in-out;
 transition: .25s ease-in-out;
 }
 
@@ -188,8 +194,6 @@ top: 20px;
 .animated-icon1.open span:nth-child(1) {
 top: 11px;
 -webkit-transform: rotate(135deg);
--moz-transform: rotate(135deg);
--o-transform: rotate(135deg);
 transform: rotate(135deg);
 }
 
@@ -201,7 +205,5 @@ left: -60px;
 .animated-icon1.open span:nth-child(3) {
 top: 11px;
 -webkit-transform: rotate(-135deg);
--moz-transform: rotate(-135deg);
--o-transform: rotate(-135deg);
 transform: rotate(-135deg);
 }

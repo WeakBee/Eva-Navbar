@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // DOMContentLoaded  end
 
-document.querySelector('.first-button').addEventListener('click', function () {
+document.querySelector('#nav .first-button').addEventListener('click', function () {
 
-  document.querySelector('.animated-icon1').classList.toggle('open');
+  document.querySelector('#nav .animated-icon1').classList.toggle('open');
   });
