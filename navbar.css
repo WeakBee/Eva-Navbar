@@ -14,7 +14,9 @@ body {
   overflow-x: hidden;
   font-family: "Open Sans", sans-serif;
 }
-
+.neo2 {
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.1), -5px -5px 10px 0 #fff;
+}
 #nav .container-lg {
   background-color: #e2e8f0d2;
   padding: 10px;
